@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Form</title>
+        <style>
+            body  {background-color: aqua; }
+            Fieldset {background-color: plum; font-size: 10px; }
+        </style>
+    </head>
+    <body>
+        <Fieldset style="border-width:3px; border-color: black; border-style:dashed ; ">
+            <legend align="center" style="font-size: xx-large;font-family: Verdana, Geneva, Tahoma, sans-serif;color:red ";>Form</legend>
+        <form style="border:40px; padding: auto; font-size: 30px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color: forestgreen;">
+            <span>Name</span>
+            <input type="Text" autofocus placeholder="Enter Your Name..." maxlength="15" style="font-size:20px"></input><br><hr>
+            <span>Gender</span>
+            <input type="radio" id="G1" name="Gender"></input><label for="G1">Male</label>
+            <input type="radio" id="G2" name="Gender"></input><label for="G2">Female</label> <br><hr>
+            <input type="checkbox" style="font-size:25px"></input>Option 1
+            <input type="checkbox" style="font-size:25px"></input>Option 2 <br><hr>
+            <span>Upload File</span>
+            <input type="file" multiple accept=".jpg, .jpeg, .png" style="font-size:20px"></input><br><hr>
+            <button>Click Here...</button>
+            <input type="Submit"></input><br><hr>
+            <span>Date</span>
+            <input type="date"></input><br>
+            <span>Color</span>
+            <input type="color"></input><br>
+            <span>Time</span>
+            <input type="time"></input><br>
+            <input type="range"></input><br><hr>
+            <span>Address</span>
+            <textarea rows="5" autofocus placeholder="Enter address here" maxlength="200" style="font-size:20px"></textarea>
+            <Fieldset style="border:2px ; border-color:brown ;border-style: outset; font-size: 30px;">
+                <legend style="font-size:25px; color:blueviolet; font-family:'Times New Roman', Times, serif">Sign in</legend>
+                <span>User Name</span>
+                <input type="text" placeholder="Enter Name"></input><br><hr>
+                <span>Password</span>
+                <input type="Password"></input><br><hr>
+                <input type="Button">Please Click...</input>
+            </Fieldset>
+        </form>
+        </Fieldset>
+    </body>
+</html>
